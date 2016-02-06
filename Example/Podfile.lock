@@ -1,0 +1,17 @@
+PODS:
+  - ANAKit (0.1.0):
+    - MTA
+  - MTA (1.4.10)
+
+DEPENDENCIES:
+  - ANAKit (from `../`)
+
+EXTERNAL SOURCES:
+  ANAKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ANAKit: 17bddc86dabff2e96f0f2d2c72803b7b4da88551
+  MTA: be6f53955ce3571e0645ed4c287803334732724c
+
+COCOAPODS: 0.39.0

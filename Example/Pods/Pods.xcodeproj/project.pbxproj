@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FDC9D4BD867A0C924B3301950FE6E78 /* Pods-ANAKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F966672B00B3CB03B8F52EBFA70C02A /* Pods-ANAKit_Tests-dummy.m */; };
+		239CA3323FD59AD6500FE69E4B8175CB /* ANAKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 70BE05401CA49036BBADC7FFD08083A7 /* ANAKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		478834E807A91E0C71DCEC69563CD5A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		7C3939AC162A29AB882E7E8217611010 /* Pods-ANAKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A21C1995A0BDA68E58B22DA022F3DC /* Pods-ANAKit_Example-dummy.m */; };
+		898FD70863BF369379DD90A822E80268 /* ANAUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = E976F6C87A7C10829B76E7AC15C98969 /* ANAUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8EF29B613A4031FF8944497E8B578252 /* ANAUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 240C4F511C21B451B3F35DDFACB8BACA /* ANAUtils.m */; };
+		A5D91C6CDE0A6043B1AB3ED22D979826 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		B9F54B9C3AA9C197E5737E947E9E1781 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		DAC7B04C2DEB3409C3E21123016E6E5B /* ANAKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53883D4EF568C64E1132730B5AD5892A /* ANAKit-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44D07F62AFB9C31DBF44EB5B3D532087 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA453B4F7DD4772A64E777DAB65BF609;
+			remoteInfo = ANAKit;
+		};
+		5CBCBEA9EC40B895603C3B8C67AC8ACA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F567C36794D626FAADA84DE1F2C54DF7;
+			remoteInfo = "ANAKit-ANAKit";
+		};
+		87949E8B68028FAD29719F818C2D1D35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA453B4F7DD4772A64E777DAB65BF609;
+			remoteInfo = ANAKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		118C18039BB8C7AD42943F7E5E22F56C /* ANAKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ANAKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		14F0E179099FF440AF8D1DA8FC606F1E /* libPods-ANAKit_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ANAKit_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		150C1374DDA9C209B26BD1A45C3920F2 /* Pods-ANAKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ANAKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1A293CC65F109DCE8C0F765ECF1D9083 /* libANAKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libANAKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		240C4F511C21B451B3F35DDFACB8BACA /* ANAUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ANAUtils.m; sourceTree = "<group>"; };
+		3864D70D23AA013EB29790B86CDF297A /* Pods-ANAKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ANAKit_Tests-resources.sh"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3E8EE24790D1D3BCEB48DED59C281042 /* MTAConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTAConfig.h; path = SDK/MTAConfig.h; sourceTree = "<group>"; };
+		4BE1166FA36785E71037AE6A0327F808 /* Pods-ANAKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ANAKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		515AE9B6D527EA6FED34AC7EE37EFB0F /* libmtasdk.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libmtasdk.a; path = SDK/libmtasdk.a; sourceTree = "<group>"; };
+		53883D4EF568C64E1132730B5AD5892A /* ANAKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ANAKit-dummy.m"; sourceTree = "<group>"; };
+		55B6CC33B09A79EFDD2EC09CF0D2D12C /* Pods-ANAKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ANAKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		69A21C1995A0BDA68E58B22DA022F3DC /* Pods-ANAKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ANAKit_Example-dummy.m"; sourceTree = "<group>"; };
+		6A5B1C6246FAD29C4028B9B7775B2727 /* Pods-ANAKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ANAKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6AAAC58CA81FDBC5EB64C97445C30CBF /* Pods-ANAKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ANAKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		6D8787650ADE4E75ED05E42AB0A4578C /* Pods-ANAKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ANAKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		70BE05401CA49036BBADC7FFD08083A7 /* ANAKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ANAKit.h; sourceTree = "<group>"; };
+		7F966672B00B3CB03B8F52EBFA70C02A /* Pods-ANAKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ANAKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		84160AB0B338BEBDEA108276080C1627 /* ANAKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ANAKit.xcconfig; sourceTree = "<group>"; };
+		87CCB891E008E03004CCEC5B1C5548C0 /* Pods-ANAKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ANAKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B491AE4262BD703E2362D68ED688F52D /* Pods-ANAKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ANAKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BA3F5575C5E09F183B8F141BAF8A49B5 /* Pods-ANAKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ANAKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DD8C086A24FB22EB03D45F872913C60C /* libPods-ANAKit_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ANAKit_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0C8E17A5EBDE332DAC1FB6B05AAE89E /* MTAFeedback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTAFeedback.h; path = SDK/MTAFeedback.h; sourceTree = "<group>"; };
+		E3446D873EFBAE14237E4C70D9346119 /* Pods-ANAKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ANAKit_Example-resources.sh"; sourceTree = "<group>"; };
+		E5215D288010C71C0D748CF8F2E01B48 /* Pods-ANAKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ANAKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E976F6C87A7C10829B76E7AC15C98969 /* ANAUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ANAUtils.h; sourceTree = "<group>"; };
+		F77CFE44B7780837667FDC2516E87468 /* MTA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTA.h; path = SDK/MTA.h; sourceTree = "<group>"; };
+		FFDBD53A30ED5ADDFF6527241E8C89C7 /* ANAKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ANAKit-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1596D9DCC0DB2A6BF1DBF8827130232E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				478834E807A91E0C71DCEC69563CD5A1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		281DBF01ABC435A642134F5B19DF8CD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9F54B9C3AA9C197E5737E947E9E1781 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E3A672017198C952ACD359D21E3F961 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3A5E320BBA21C10A7235FEB4C1F2B84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5D91C6CDE0A6043B1AB3ED22D979826 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05222A3C44ED27E07693FCBF64A7CAE0 /* Pods-ANAKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B491AE4262BD703E2362D68ED688F52D /* Pods-ANAKit_Tests-acknowledgements.markdown */,
+				150C1374DDA9C209B26BD1A45C3920F2 /* Pods-ANAKit_Tests-acknowledgements.plist */,
+				7F966672B00B3CB03B8F52EBFA70C02A /* Pods-ANAKit_Tests-dummy.m */,
+				6AAAC58CA81FDBC5EB64C97445C30CBF /* Pods-ANAKit_Tests-frameworks.sh */,
+				3864D70D23AA013EB29790B86CDF297A /* Pods-ANAKit_Tests-resources.sh */,
+				4BE1166FA36785E71037AE6A0327F808 /* Pods-ANAKit_Tests.debug.xcconfig */,
+				6A5B1C6246FAD29C4028B9B7775B2727 /* Pods-ANAKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-ANAKit_Tests";
+			path = "Target Support Files/Pods-ANAKit_Tests";
+			sourceTree = "<group>";
+		};
+		6D7AA86B90D0C07BA301786B8ED9E696 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				70BE05401CA49036BBADC7FFD08083A7 /* ANAKit.h */,
+				E976F6C87A7C10829B76E7AC15C98969 /* ANAUtils.h */,
+				240C4F511C21B451B3F35DDFACB8BACA /* ANAUtils.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		767C5FBB3F21EB82D606BEB098B43E77 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				515AE9B6D527EA6FED34AC7EE37EFB0F /* libmtasdk.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				A7A8E61F8BAE022640FCA99FB6A378EC /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				E30B204FDFA50BB0BAC51D35BA7BB05E /* Pods */,
+				B36BC785A9010D797B6C54932A6B408F /* Products */,
+				DF160664B6910F68415A814C5B280BB7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9144169235E0B13E6AC3D565CD3C7C07 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				84160AB0B338BEBDEA108276080C1627 /* ANAKit.xcconfig */,
+				53883D4EF568C64E1132730B5AD5892A /* ANAKit-dummy.m */,
+				FFDBD53A30ED5ADDFF6527241E8C89C7 /* ANAKit-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ANAKit";
+			sourceTree = "<group>";
+		};
+		A4CCDA75153C923CC81362B3CE7A364B /* ANAKit */ = {
+			isa = PBXGroup;
+			children = (
+				C3ACC447DC5B2AF871EA7CF8908CB2A9 /* Pod */,
+				9144169235E0B13E6AC3D565CD3C7C07 /* Support Files */,
+			);
+			name = ANAKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A7A8E61F8BAE022640FCA99FB6A378EC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4CCDA75153C923CC81362B3CE7A364B /* ANAKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B36BC785A9010D797B6C54932A6B408F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				118C18039BB8C7AD42943F7E5E22F56C /* ANAKit.bundle */,
+				1A293CC65F109DCE8C0F765ECF1D9083 /* libANAKit.a */,
+				DD8C086A24FB22EB03D45F872913C60C /* libPods-ANAKit_Example.a */,
+				14F0E179099FF440AF8D1DA8FC606F1E /* libPods-ANAKit_Tests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD313227F6B1AA8B7384F413B4EBB97A /* Pods-ANAKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6D8787650ADE4E75ED05E42AB0A4578C /* Pods-ANAKit_Example-acknowledgements.markdown */,
+				55B6CC33B09A79EFDD2EC09CF0D2D12C /* Pods-ANAKit_Example-acknowledgements.plist */,
+				69A21C1995A0BDA68E58B22DA022F3DC /* Pods-ANAKit_Example-dummy.m */,
+				BA3F5575C5E09F183B8F141BAF8A49B5 /* Pods-ANAKit_Example-frameworks.sh */,
+				E3446D873EFBAE14237E4C70D9346119 /* Pods-ANAKit_Example-resources.sh */,
+				E5215D288010C71C0D748CF8F2E01B48 /* Pods-ANAKit_Example.debug.xcconfig */,
+				87CCB891E008E03004CCEC5B1C5548C0 /* Pods-ANAKit_Example.release.xcconfig */,
+			);
+			name = "Pods-ANAKit_Example";
+			path = "Target Support Files/Pods-ANAKit_Example";
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C273CE22305EC5F886D86014386B0E8C /* MTA */ = {
+			isa = PBXGroup;
+			children = (
+				F77CFE44B7780837667FDC2516E87468 /* MTA.h */,
+				3E8EE24790D1D3BCEB48DED59C281042 /* MTAConfig.h */,
+				E0C8E17A5EBDE332DAC1FB6B05AAE89E /* MTAFeedback.h */,
+				767C5FBB3F21EB82D606BEB098B43E77 /* Frameworks */,
+			);
+			path = MTA;
+			sourceTree = "<group>";
+		};
+		C3ACC447DC5B2AF871EA7CF8908CB2A9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6D7AA86B90D0C07BA301786B8ED9E696 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		DF160664B6910F68415A814C5B280BB7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD313227F6B1AA8B7384F413B4EBB97A /* Pods-ANAKit_Example */,
+				05222A3C44ED27E07693FCBF64A7CAE0 /* Pods-ANAKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E30B204FDFA50BB0BAC51D35BA7BB05E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C273CE22305EC5F886D86014386B0E8C /* MTA */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C11330B0310CA98390413F5EF2232FD5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				239CA3323FD59AD6500FE69E4B8175CB /* ANAKit.h in Headers */,
+				898FD70863BF369379DD90A822E80268 /* ANAUtils.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7D684A7B8B33A5EC02F792BF5C695AC3 /* Pods-ANAKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8AF980F36C520E04860AC233BF970D3 /* Build configuration list for PBXNativeTarget "Pods-ANAKit_Example" */;
+			buildPhases = (
+				EE3B39DDC9F9B56A9B7ED13168BFB7FF /* Sources */,
+				281DBF01ABC435A642134F5B19DF8CD7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A0176960B8D6CB67446C6181D97DDA0 /* PBXTargetDependency */,
+			);
+			name = "Pods-ANAKit_Example";
+			productName = "Pods-ANAKit_Example";
+			productReference = DD8C086A24FB22EB03D45F872913C60C /* libPods-ANAKit_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AA453B4F7DD4772A64E777DAB65BF609 /* ANAKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 017D1481D39BB5F28E370D747D13A7B3 /* Build configuration list for PBXNativeTarget "ANAKit" */;
+			buildPhases = (
+				49D9E03409DB6C493FD11C4A0853EC7E /* Sources */,
+				1596D9DCC0DB2A6BF1DBF8827130232E /* Frameworks */,
+				C11330B0310CA98390413F5EF2232FD5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E237AB28E5D9DDF9E5EE5DC5D50128E /* PBXTargetDependency */,
+			);
+			name = ANAKit;
+			productName = ANAKit;
+			productReference = 1A293CC65F109DCE8C0F765ECF1D9083 /* libANAKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EC77D1A6C483DE52A672B1C3E60D7C35 /* Pods-ANAKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 557AB286455DD4F8FEFDB3D3939B6277 /* Build configuration list for PBXNativeTarget "Pods-ANAKit_Tests" */;
+			buildPhases = (
+				D9FF905425F701BC99FA398CEB1A845E /* Sources */,
+				A3A5E320BBA21C10A7235FEB4C1F2B84 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59B70FC3D71214351E82CA4A025A560F /* PBXTargetDependency */,
+			);
+			name = "Pods-ANAKit_Tests";
+			productName = "Pods-ANAKit_Tests";
+			productReference = 14F0E179099FF440AF8D1DA8FC606F1E /* libPods-ANAKit_Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F567C36794D626FAADA84DE1F2C54DF7 /* ANAKit-ANAKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2C3ADA67837A155E76440B51A239B8A /* Build configuration list for PBXNativeTarget "ANAKit-ANAKit" */;
+			buildPhases = (
+				CEC9A365AB00ABDB276B947299F71117 /* Sources */,
+				8E3A672017198C952ACD359D21E3F961 /* Frameworks */,
+				87B92DDA515A6784D09EF8916235F036 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ANAKit-ANAKit";
+			productName = "ANAKit-ANAKit";
+			productReference = 118C18039BB8C7AD42943F7E5E22F56C /* ANAKit.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B36BC785A9010D797B6C54932A6B408F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA453B4F7DD4772A64E777DAB65BF609 /* ANAKit */,
+				F567C36794D626FAADA84DE1F2C54DF7 /* ANAKit-ANAKit */,
+				7D684A7B8B33A5EC02F792BF5C695AC3 /* Pods-ANAKit_Example */,
+				EC77D1A6C483DE52A672B1C3E60D7C35 /* Pods-ANAKit_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87B92DDA515A6784D09EF8916235F036 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49D9E03409DB6C493FD11C4A0853EC7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC7B04C2DEB3409C3E21123016E6E5B /* ANAKit-dummy.m in Sources */,
+				8EF29B613A4031FF8944497E8B578252 /* ANAUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC9A365AB00ABDB276B947299F71117 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9FF905425F701BC99FA398CEB1A845E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FDC9D4BD867A0C924B3301950FE6E78 /* Pods-ANAKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE3B39DDC9F9B56A9B7ED13168BFB7FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C3939AC162A29AB882E7E8217611010 /* Pods-ANAKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E237AB28E5D9DDF9E5EE5DC5D50128E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ANAKit-ANAKit";
+			target = F567C36794D626FAADA84DE1F2C54DF7 /* ANAKit-ANAKit */;
+			targetProxy = 5CBCBEA9EC40B895603C3B8C67AC8ACA /* PBXContainerItemProxy */;
+		};
+		59B70FC3D71214351E82CA4A025A560F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ANAKit;
+			target = AA453B4F7DD4772A64E777DAB65BF609 /* ANAKit */;
+			targetProxy = 44D07F62AFB9C31DBF44EB5B3D532087 /* PBXContainerItemProxy */;
+		};
+		5A0176960B8D6CB67446C6181D97DDA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ANAKit;
+			target = AA453B4F7DD4772A64E777DAB65BF609 /* ANAKit */;
+			targetProxy = 87949E8B68028FAD29719F818C2D1D35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03964B2E4503F0A9D84E42B0C674CD4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5215D288010C71C0D748CF8F2E01B48 /* Pods-ANAKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		58757CF55B2C66B51F28B074C4C7A353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87CCB891E008E03004CCEC5B1C5548C0 /* Pods-ANAKit_Example.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5C18101F1BEB876613EDD6A1F69D032C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84160AB0B338BEBDEA108276080C1627 /* ANAKit.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ANAKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		7D4DF11D3D827DC7278C55E8BD57A97E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A5B1C6246FAD29C4028B9B7775B2727 /* Pods-ANAKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		85AA174A373AB7EAF71331BD309B6B7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BE1166FA36785E71037AE6A0327F808 /* Pods-ANAKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C3D105C1DF68B30420957EB8ABA06663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84160AB0B338BEBDEA108276080C1627 /* ANAKit.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ANAKit/ANAKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C6E8C693D20B468A775B140859FC7627 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84160AB0B338BEBDEA108276080C1627 /* ANAKit.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ANAKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		FD5FA67C5DD7C34A7E8C78D68851170A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84160AB0B338BEBDEA108276080C1627 /* ANAKit.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ANAKit/ANAKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		017D1481D39BB5F28E370D747D13A7B3 /* Build configuration list for PBXNativeTarget "ANAKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD5FA67C5DD7C34A7E8C78D68851170A /* Debug */,
+				C3D105C1DF68B30420957EB8ABA06663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		557AB286455DD4F8FEFDB3D3939B6277 /* Build configuration list for PBXNativeTarget "Pods-ANAKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85AA174A373AB7EAF71331BD309B6B7E /* Debug */,
+				7D4DF11D3D827DC7278C55E8BD57A97E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8AF980F36C520E04860AC233BF970D3 /* Build configuration list for PBXNativeTarget "Pods-ANAKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03964B2E4503F0A9D84E42B0C674CD4A /* Debug */,
+				58757CF55B2C66B51F28B074C4C7A353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2C3ADA67837A155E76440B51A239B8A /* Build configuration list for PBXNativeTarget "ANAKit-ANAKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C18101F1BEB876613EDD6A1F69D032C /* Debug */,
+				C6E8C693D20B468A775B140859FC7627 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
