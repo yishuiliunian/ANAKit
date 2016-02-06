@@ -9,7 +9,11 @@
 #import "ANAUtils.h"
 #import <MTA.h>
 #import <objc/runtime.h>
-
+#import <MTAConfig.h>
+void MTARegister(NSString* key) {
+    [MTA startWithAppkey:key];
+    [[MTAConfig getInstance] setAutoExceptionCaught:FALSE];
+}
 
 @interface UIViewController (ANAUtils)
 

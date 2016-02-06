@@ -7,7 +7,5 @@
 //
 
 #import <Foundation/Foundation.h>
+FOUNDATION_EXTERN void MTARegister(NSString* key);
 
-@interface ANAUtils : NSObject
-
-@end
