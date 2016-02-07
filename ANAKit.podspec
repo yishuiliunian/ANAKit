@@ -21,11 +21,9 @@ Pod::Spec.new do |s|
                        DESC
 
   s.homepage         = "https://github.com/yishuiliunian/ANAKit"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "stonedong" => "yishuiliunian@gmail.com" }
   s.source           = { :git => "https://github.com/yishuiliunian/ANAKit.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '6.0'
   s.requires_arc = true
@@ -35,7 +33,5 @@ Pod::Spec.new do |s|
     'ANAKit' => ['Pod/Assets/*.png']
   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'MTA'
 end
